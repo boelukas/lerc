@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\BitMask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\BitStuffer2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Huffman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode\BitStuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode\CntZImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc_c_api_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\RLE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_Compression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_EsriHuffman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_Lerc2Ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_Predictor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_UnitTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\BitMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\BitStuffer2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Huffman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode\BitStuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode\CntZImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode\TImage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\RLE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_Compression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_EsriHuffman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_Lerc2Ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_Predictor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\fpl_UnitTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\include\Lerc_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\luk14172\Projects\lerc\src\LercLib\include\Lerc_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\luk14172\Projects\lerc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\luk14172\Projects\lerc\src\LercLib\.DS_Store" />
+    <None Include="C:\Users\luk14172\Projects\lerc\src\LercLib\Lerc1Decode" />
+    <None Include="C:\Users\luk14172\Projects\lerc\src\LercLib\include" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2CC83552-C519-336D-B34F-634F30B8CE68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FB720081-1702-3706-8ECC-75FE57B19EE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/Lerc.dir
+/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/install.dir
+/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/ALL_BUILD.dir
+/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/ZERO_CHECK.dir

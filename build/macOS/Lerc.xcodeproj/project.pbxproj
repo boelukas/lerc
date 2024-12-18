@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		58B0B72CA5C2CE2E185637B6 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F00CF5C22BF403B9CAEDF9E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6A5C93C582374190B84B1540 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		73EA093D17D6B8FFB2750F23 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 323534929EE14CE098451640 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DEBF429BAFE4AC0B79471112 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				ABE4D2D5B28942BFA9BA48B0 /* PBXTargetDependency */,
+				DEF44DC1046546288C4C6137 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		AF191B1CBA9C9C472BD99D9A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E995B86DC3EC4B09B8D14C24 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				71FF74EEBF637AE4EC9ED20D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		151911127C3343B0B2ECCCDA /* BitStuffer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF6D1555859A4721A6CC0B5E /* BitStuffer2.cpp */; };
+		16BE1D12B50A46D0BD8C5A31 /* Lerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A8588AFF595450D8045C535 /* Lerc.cpp */; };
+		26631FA032AB40BBBF2416FD /* BitMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A04F166AC16D4BD4A81B39A2 /* BitMask.cpp */; };
+		2F3FE36527E94B17ADFB6A82 /* fpl_Lerc2Ext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80063D8F08E14D4E93B69A92 /* fpl_Lerc2Ext.cpp */; };
+		3477CCB216DF40868B3FA007 /* BitStuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5581AB55D18C43A4B3BF905F /* BitStuffer.cpp */; };
+		40E5DEBD6C33473891C6A4CB /* fpl_EsriHuffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BABE1FBEB0234933ABF498CA /* fpl_EsriHuffman.cpp */; };
+		906F03099EBC464D818C1A25 /* CntZImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 122D36C112534044BE067A46 /* CntZImage.cpp */; };
+		A1E47B9CF3BA4DCA8A1092AB /* fpl_Compression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D762104D9F041DF9379EF8B /* fpl_Compression.cpp */; };
+		B7ABD56A10D74585BDC52104 /* fpl_Predictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08BB315840A94FA293809720 /* fpl_Predictor.cpp */; };
+		BA05894CC4E04C7CA53E13AC /* RLE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EDA7658804E80B3A0A5B0 /* RLE.cpp */; };
+		D21537CFA0974C41AAA5005E /* Huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20A8633DF06B44C1B62DE6EE /* Huffman.cpp */; };
+		DF1940EA972C42899F1CEC3A /* fpl_UnitTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693EE1453F3745D2921C28FF /* fpl_UnitTypes.cpp */; };
+		E0BD66851093444BB294EFDD /* Lerc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E1E18017EDA482D84E97D30 /* Lerc2.cpp */; };
+		FFA80B1B02D0497D9C70A5E8 /* Lerc_c_api_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39DDABCBE8CE4CB3951F01DE /* Lerc_c_api_impl.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CB66108EF04ED881F83F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8324109607BB44FB810CDE33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4932E3DD58B6E95D3BAD9585;
+			remoteInfo = Lerc;
+		};
+		49D60F3E61E247CDAA6B44EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8324109607BB44FB810CDE33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF191B1CBA9C9C472BD99D9A;
+			remoteInfo = ZERO_CHECK;
+		};
+		5398900445BA4E2181F8CA99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8324109607BB44FB810CDE33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF191B1CBA9C9C472BD99D9A;
+			remoteInfo = ZERO_CHECK;
+		};
+		8E96263F919F4D69B6958208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8324109607BB44FB810CDE33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73EA093D17D6B8FFB2750F23;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BB315840A94FA293809720 /* fpl_Predictor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fpl_Predictor.cpp; path = src/LercLib/fpl_Predictor.cpp; sourceTree = SOURCE_ROOT; };
+		0E8FA742B8EE48B8B86250D4 /* Defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Defines.h; path = src/LercLib/Defines.h; sourceTree = SOURCE_ROOT; };
+		122D36C112534044BE067A46 /* CntZImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CntZImage.cpp; path = src/LercLib/Lerc1Decode/CntZImage.cpp; sourceTree = SOURCE_ROOT; };
+		14AB06F3529347AAA9565473 /* fpl_EsriHuffman.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fpl_EsriHuffman.h; path = src/LercLib/fpl_EsriHuffman.h; sourceTree = SOURCE_ROOT; };
+		1B8C8BD18BED4C6A84D2EC6C /* BitStuffer2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitStuffer2.h; path = src/LercLib/BitStuffer2.h; sourceTree = SOURCE_ROOT; };
+		1C8526B5E875464084F28BCB /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20A8633DF06B44C1B62DE6EE /* Huffman.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Huffman.cpp; path = src/LercLib/Huffman.cpp; sourceTree = SOURCE_ROOT; };
+		39DDABCBE8CE4CB3951F01DE /* Lerc_c_api_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lerc_c_api_impl.cpp; path = src/LercLib/Lerc_c_api_impl.cpp; sourceTree = SOURCE_ROOT; };
+		3E1E18017EDA482D84E97D30 /* Lerc2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lerc2.cpp; path = src/LercLib/Lerc2.cpp; sourceTree = SOURCE_ROOT; };
+		402DB22DAC8844D79BE6B7A8 /* fpl_Compression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fpl_Compression.h; path = src/LercLib/fpl_Compression.h; sourceTree = SOURCE_ROOT; };
+		5581AB55D18C43A4B3BF905F /* BitStuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BitStuffer.cpp; path = src/LercLib/Lerc1Decode/BitStuffer.cpp; sourceTree = SOURCE_ROOT; };
+		59F49C4B40BF42E2AE27D913 /* fpl_UnitTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fpl_UnitTypes.h; path = src/LercLib/fpl_UnitTypes.h; sourceTree = SOURCE_ROOT; };
+		5D762104D9F041DF9379EF8B /* fpl_Compression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fpl_Compression.cpp; path = src/LercLib/fpl_Compression.cpp; sourceTree = SOURCE_ROOT; };
+		686469B7094943348F49BBF0 /* CntZImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CntZImage.h; path = src/LercLib/Lerc1Decode/CntZImage.h; sourceTree = SOURCE_ROOT; };
+		693EE1453F3745D2921C28FF /* fpl_UnitTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fpl_UnitTypes.cpp; path = src/LercLib/fpl_UnitTypes.cpp; sourceTree = SOURCE_ROOT; };
+		69EE62C026CC4992935038B9 /* Lerc1Decode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = Lerc1Decode; path = src/LercLib/Lerc1Decode; sourceTree = SOURCE_ROOT; };
+		6AD4DC08E9044A569B05CAB0 /* include */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = include; path = src/LercLib/include; sourceTree = SOURCE_ROOT; };
+		7A8588AFF595450D8045C535 /* Lerc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lerc.cpp; path = src/LercLib/Lerc.cpp; sourceTree = SOURCE_ROOT; };
+		7EB13767638742EAA4E4C4E5 /* Lerc2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lerc2.h; path = src/LercLib/Lerc2.h; sourceTree = SOURCE_ROOT; };
+		80063D8F08E14D4E93B69A92 /* fpl_Lerc2Ext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fpl_Lerc2Ext.cpp; path = src/LercLib/fpl_Lerc2Ext.cpp; sourceTree = SOURCE_ROOT; };
+		9A3EDA7658804E80B3A0A5B0 /* RLE.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RLE.cpp; path = src/LercLib/RLE.cpp; sourceTree = SOURCE_ROOT; };
+		9DB0D0388DC64999A463A28F /* RLE.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RLE.h; path = src/LercLib/RLE.h; sourceTree = SOURCE_ROOT; };
+		9FC9AFA995924646A0AABC16 /* Lerc_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lerc_types.h; path = src/LercLib/include/Lerc_types.h; sourceTree = SOURCE_ROOT; };
+		A04F166AC16D4BD4A81B39A2 /* BitMask.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BitMask.cpp; path = src/LercLib/BitMask.cpp; sourceTree = SOURCE_ROOT; };
+		AC85F7777CE94D0FB09E62BE /* BitMask.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitMask.h; path = src/LercLib/BitMask.h; sourceTree = SOURCE_ROOT; };
+		AF6D1555859A4721A6CC0B5E /* BitStuffer2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BitStuffer2.cpp; path = src/LercLib/BitStuffer2.cpp; sourceTree = SOURCE_ROOT; };
+		B15D32290B134F1AAE557596 /* Lerc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lerc.h; path = src/LercLib/Lerc.h; sourceTree = SOURCE_ROOT; };
+		B825B3D971C547B09356D776 /* .DS_Store */ = {isa = PBXFileReference; explicitFileType = default; fileEncoding = 4; lastKnownFileType = file; name = .DS_Store; path = src/LercLib/.DS_Store; sourceTree = SOURCE_ROOT; };
+		BABE1FBEB0234933ABF498CA /* fpl_EsriHuffman.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fpl_EsriHuffman.cpp; path = src/LercLib/fpl_EsriHuffman.cpp; sourceTree = SOURCE_ROOT; };
+		BF2047C9892E46CA9D6F1071 /* fpl_Lerc2Ext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fpl_Lerc2Ext.h; path = src/LercLib/fpl_Lerc2Ext.h; sourceTree = SOURCE_ROOT; };
+		C21DFB88AF2C4C5488C84DCF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7F8FB0679D045D093868444 /* Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = src/LercLib/Lerc1Decode/Image.h; sourceTree = SOURCE_ROOT; };
+		D38A2387953D4F82B65625BD /* libLerc.4.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libLerc.4.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64EB14917614460BC2B4D99 /* BitStuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BitStuffer.h; path = src/LercLib/Lerc1Decode/BitStuffer.h; sourceTree = SOURCE_ROOT; };
+		DE39BDF11493487FA2D6AE20 /* fpl_Predictor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fpl_Predictor.h; path = src/LercLib/fpl_Predictor.h; sourceTree = SOURCE_ROOT; };
+		E7876D1726164F93B0F5CDD5 /* Huffman.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Huffman.h; path = src/LercLib/Huffman.h; sourceTree = SOURCE_ROOT; };
+		ECC04EC8BC724E699DBC63EF /* Lerc_c_api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lerc_c_api.h; path = src/LercLib/include/Lerc_c_api.h; sourceTree = SOURCE_ROOT; };
+		F7AB9DB03AAA4576902ED35A /* TImage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = TImage.hpp; path = src/LercLib/Lerc1Decode/TImage.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118E6FED2BA84270B4F5EA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F8DC1812384855A67334D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7CBC66CD8E402781DFB11A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC85F7777CE94D0FB09E62BE /* BitMask.h */,
+				1B8C8BD18BED4C6A84D2EC6C /* BitStuffer2.h */,
+				0E8FA742B8EE48B8B86250D4 /* Defines.h */,
+				E7876D1726164F93B0F5CDD5 /* Huffman.h */,
+				B15D32290B134F1AAE557596 /* Lerc.h */,
+				D64EB14917614460BC2B4D99 /* BitStuffer.h */,
+				686469B7094943348F49BBF0 /* CntZImage.h */,
+				C7F8FB0679D045D093868444 /* Image.h */,
+				F7AB9DB03AAA4576902ED35A /* TImage.hpp */,
+				7EB13767638742EAA4E4C4E5 /* Lerc2.h */,
+				9DB0D0388DC64999A463A28F /* RLE.h */,
+				402DB22DAC8844D79BE6B7A8 /* fpl_Compression.h */,
+				14AB06F3529347AAA9565473 /* fpl_EsriHuffman.h */,
+				BF2047C9892E46CA9D6F1071 /* fpl_Lerc2Ext.h */,
+				DE39BDF11493487FA2D6AE20 /* fpl_Predictor.h */,
+				59F49C4B40BF42E2AE27D913 /* fpl_UnitTypes.h */,
+				ECC04EC8BC724E699DBC63EF /* Lerc_c_api.h */,
+				9FC9AFA995924646A0AABC16 /* Lerc_types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		352BF44490E5439A95A42C65 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A04F166AC16D4BD4A81B39A2 /* BitMask.cpp */,
+				AF6D1555859A4721A6CC0B5E /* BitStuffer2.cpp */,
+				20A8633DF06B44C1B62DE6EE /* Huffman.cpp */,
+				7A8588AFF595450D8045C535 /* Lerc.cpp */,
+				5581AB55D18C43A4B3BF905F /* BitStuffer.cpp */,
+				122D36C112534044BE067A46 /* CntZImage.cpp */,
+				3E1E18017EDA482D84E97D30 /* Lerc2.cpp */,
+				39DDABCBE8CE4CB3951F01DE /* Lerc_c_api_impl.cpp */,
+				9A3EDA7658804E80B3A0A5B0 /* RLE.cpp */,
+				5D762104D9F041DF9379EF8B /* fpl_Compression.cpp */,
+				BABE1FBEB0234933ABF498CA /* fpl_EsriHuffman.cpp */,
+				80063D8F08E14D4E93B69A92 /* fpl_Lerc2Ext.cpp */,
+				08BB315840A94FA293809720 /* fpl_Predictor.cpp */,
+				693EE1453F3745D2921C28FF /* fpl_UnitTypes.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		45BEE4E2539F43B68D855260 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7AA908F9A1B146839A01EBD7 /* CMake Rules */,
+				1C8526B5E875464084F28BCB /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6B3B7221CE864DE4AB469E90 = {
+			isa = PBXGroup;
+			children = (
+				8AD27B23B37C4FD085FAB815 /* Lerc */,
+				45BEE4E2539F43B68D855260 /* ALL_BUILD */,
+				CEC1338C1F5C4A9FA683D5A9 /* Products */,
+				06F8DC1812384855A67334D6 /* Frameworks */,
+				C621F7ACD4B14FF38D331D3D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA908F9A1B146839A01EBD7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8AD27B23B37C4FD085FAB815 /* Lerc */ = {
+			isa = PBXGroup;
+			children = (
+				352BF44490E5439A95A42C65 /* Source Files */,
+				2B7CBC66CD8E402781DFB11A /* Header Files */,
+				C21DFB88AF2C4C5488C84DCF /* CMakeLists.txt */,
+				B825B3D971C547B09356D776 /* .DS_Store */,
+				69EE62C026CC4992935038B9 /* Lerc1Decode */,
+				6AD4DC08E9044A569B05CAB0 /* include */,
+			);
+			name = Lerc;
+			sourceTree = "<group>";
+		};
+		C621F7ACD4B14FF38D331D3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEC1338C1F5C4A9FA683D5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38A2387953D4F82B65625BD /* libLerc.4.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4932E3DD58B6E95D3BAD9585 /* Lerc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56777784F70D42F383785482 /* Build configuration list for PBXNativeTarget "Lerc" */;
+			buildPhases = (
+				D6573469DB4541F5A17050EE /* Sources */,
+				118E6FED2BA84270B4F5EA86 /* Frameworks */,
+				8E78DC6C0B6A5292F119CF49 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2571EFCC7F4E3CA28148A2 /* PBXTargetDependency */,
+			);
+			name = Lerc;
+			productName = Lerc;
+			productReference = D38A2387953D4F82B65625BD /* libLerc.4.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8324109607BB44FB810CDE33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C7F8AD79DF1D425E83F56797 /* Build configuration list for PBXProject "Lerc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B3B7221CE864DE4AB469E90;
+			projectDirPath = /Users/luk14172/Projects/lerc;
+			projectRoot = "";
+			targets = (
+				73EA093D17D6B8FFB2750F23 /* ALL_BUILD */,
+				4932E3DD58B6E95D3BAD9585 /* Lerc */,
+				AF191B1CBA9C9C472BD99D9A /* ZERO_CHECK */,
+				58B0B72CA5C2CE2E185637B6 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71FF74EEBF637AE4EC9ED20D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/ZERO_CHECK,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  make -f /Users/luk14172/Projects/lerc/build/macOS/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  make -f /Users/luk14172/Projects/lerc/build/macOS/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  make -f /Users/luk14172/Projects/lerc/build/macOS/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  make -f /Users/luk14172/Projects/lerc/build/macOS/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E78DC6C0B6A5292F119CF49 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_symlink_library /Users/luk14172/Projects/lerc/build/macOS/Debug/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/Debug/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/Debug/libLerc.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_symlink_library /Users/luk14172/Projects/lerc/build/macOS/Release/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/Release/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/Release/libLerc.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_symlink_library /Users/luk14172/Projects/lerc/build/macOS/MinSizeRel/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/MinSizeRel/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/MinSizeRel/libLerc.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E cmake_symlink_library /Users/luk14172/Projects/lerc/build/macOS/RelWithDebInfo/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/RelWithDebInfo/libLerc.4.dylib /Users/luk14172/Projects/lerc/build/macOS/RelWithDebInfo/libLerc.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBF429BAFE4AC0B79471112 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/luk14172/Projects/lerc/build/macOS\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6573469DB4541F5A17050EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26631FA032AB40BBBF2416FD /* BitMask.cpp in Sources */,
+				151911127C3343B0B2ECCCDA /* BitStuffer2.cpp in Sources */,
+				D21537CFA0974C41AAA5005E /* Huffman.cpp in Sources */,
+				16BE1D12B50A46D0BD8C5A31 /* Lerc.cpp in Sources */,
+				3477CCB216DF40868B3FA007 /* BitStuffer.cpp in Sources */,
+				906F03099EBC464D818C1A25 /* CntZImage.cpp in Sources */,
+				E0BD66851093444BB294EFDD /* Lerc2.cpp in Sources */,
+				FFA80B1B02D0497D9C70A5E8 /* Lerc_c_api_impl.cpp in Sources */,
+				BA05894CC4E04C7CA53E13AC /* RLE.cpp in Sources */,
+				A1E47B9CF3BA4DCA8A1092AB /* fpl_Compression.cpp in Sources */,
+				40E5DEBD6C33473891C6A4CB /* fpl_EsriHuffman.cpp in Sources */,
+				2F3FE36527E94B17ADFB6A82 /* fpl_Lerc2Ext.cpp in Sources */,
+				B7ABD56A10D74585BDC52104 /* fpl_Predictor.cpp in Sources */,
+				DF1940EA972C42899F1CEC3A /* fpl_UnitTypes.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A5C93C582374190B84B1540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73EA093D17D6B8FFB2750F23 /* ALL_BUILD */;
+			targetProxy = 8E96263F919F4D69B6958208 /* PBXContainerItemProxy */;
+		};
+		ABE4D2D5B28942BFA9BA48B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4932E3DD58B6E95D3BAD9585 /* Lerc */;
+			targetProxy = 18CB66108EF04ED881F83F7F /* PBXContainerItemProxy */;
+		};
+		CF2571EFCC7F4E3CA28148A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF191B1CBA9C9C472BD99D9A /* ZERO_CHECK */;
+			targetProxy = 49D60F3E61E247CDAA6B44EC /* PBXContainerItemProxy */;
+		};
+		DEF44DC1046546288C4C6137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF191B1CBA9C9C472BD99D9A /* ZERO_CHECK */;
+			targetProxy = 5398900445BA4E2181F8CA99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0316346774F249E3A09619DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		06940FA5598F4157BB064518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/luk14172/Projects/lerc/build/macOS/build;
+			};
+			name = Release;
+		};
+		0B0ADA68CE5E4FF7928486A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		0D2F2F83627046F68665BD8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/luk14172/Projects/lerc/build/macOS/build;
+			};
+			name = MinSizeRel;
+		};
+		1016A9A6FFA24F7C8F2317E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		22FB7C8D4E6340F68DACFFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		29E5A5387A2D4EB999E285A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		414023589FB1403391A98C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/luk14172/Projects/lerc/build/macOS/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 4.0.0;
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					LERC_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lerc.4;
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 7;
+				TARGET_TEMP_DIR = "/Users/luk14172/Projects/lerc/build/macOS/build/Lerc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		592FB72AAC744BD398F0D217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		668917E28F5147BA91D51729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk";
+				SYMROOT = /Users/luk14172/Projects/lerc/build/macOS/build;
+			};
+			name = Debug;
+		};
+		66F11CBA84204365B09683CE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		80A4E38A677E4CE5A9627D69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		B1D35DC0177E4FD48672705D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/luk14172/Projects/lerc/build/macOS/MinSizeRel;
+				DYLIB_COMPATIBILITY_VERSION = 4.0.0;
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					LERC_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lerc.4;
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 7;
+				TARGET_TEMP_DIR = "/Users/luk14172/Projects/lerc/build/macOS/build/Lerc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		B242683C9F5647C1906D26D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		B2E81CFDA8D1446388DB53F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/luk14172/Projects/lerc/build/macOS/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CB8E7852E43045DAA05BB618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/luk14172/Projects/lerc/build/macOS/Release;
+				DYLIB_COMPATIBILITY_VERSION = 4.0.0;
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					LERC_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lerc.4;
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 7;
+				TARGET_TEMP_DIR = "/Users/luk14172/Projects/lerc/build/macOS/build/Lerc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		D0089423DFF44F6EB0B00464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		D66E143B1EFD4033A0A366C6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/luk14172/Projects/lerc/build/macOS/RelWithDebInfo;
+				DYLIB_COMPATIBILITY_VERSION = 4.0.0;
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					LERC_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lerc.4;
+				SECTORDER_FLAGS = "";
+				SUPPORTED_PLATFORMS = "macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 7;
+				TARGET_TEMP_DIR = "/Users/luk14172/Projects/lerc/build/macOS/build/Lerc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E98F0204F714442D9664FB42 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		EF8721660F7A4996917FAA7F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323534929EE14CE098451640 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1016A9A6FFA24F7C8F2317E7 /* Debug */,
+				29E5A5387A2D4EB999E285A9 /* Release */,
+				66F11CBA84204365B09683CE /* MinSizeRel */,
+				0316346774F249E3A09619DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		56777784F70D42F383785482 /* Build configuration list for PBXNativeTarget "Lerc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414023589FB1403391A98C77 /* Debug */,
+				CB8E7852E43045DAA05BB618 /* Release */,
+				B1D35DC0177E4FD48672705D /* MinSizeRel */,
+				D66E143B1EFD4033A0A366C6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F00CF5C22BF403B9CAEDF9E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0ADA68CE5E4FF7928486A0 /* Debug */,
+				592FB72AAC744BD398F0D217 /* Release */,
+				E98F0204F714442D9664FB42 /* MinSizeRel */,
+				80A4E38A677E4CE5A9627D69 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7F8AD79DF1D425E83F56797 /* Build configuration list for PBXProject "Lerc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668917E28F5147BA91D51729 /* Debug */,
+				06940FA5598F4157BB064518 /* Release */,
+				0D2F2F83627046F68665BD8E /* MinSizeRel */,
+				B2E81CFDA8D1446388DB53F1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E995B86DC3EC4B09B8D14C24 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FB7C8D4E6340F68DACFFB4 /* Debug */,
+				D0089423DFF44F6EB0B00464 /* Release */,
+				B242683C9F5647C1906D26D7 /* MinSizeRel */,
+				EF8721660F7A4996917FAA7F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8324109607BB44FB810CDE33 /* Project object */;
+}

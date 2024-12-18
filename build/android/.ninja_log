@@ -1,0 +1,16 @@
+# ninja log v6
+5	82	1733300532834187092	CMakeFiles/Lerc.dir/src/LercLib/fpl_Predictor.cpp.o	f02a7f3bfd2edee
+6	102	1733300532834972052	CMakeFiles/Lerc.dir/src/LercLib/fpl_UnitTypes.cpp.o	b9b049e2f1abb02f
+2	103	1733300532830409662	CMakeFiles/Lerc.dir/src/LercLib/BitMask.cpp.o	8f5f827896a0ccc8
+4	105	1733300532832585253	CMakeFiles/Lerc.dir/src/LercLib/RLE.cpp.o	fd9cefe560144e82
+4	112	1733300532832945879	CMakeFiles/Lerc.dir/src/LercLib/fpl_Compression.cpp.o	66f099373feb1338
+3	196	1733300532831990126	CMakeFiles/Lerc.dir/src/LercLib/Lerc1Decode/BitStuffer.cpp.o	f4c52fec8c411232
+4	216	1733300532832431377	CMakeFiles/Lerc.dir/src/LercLib/Lerc_c_api_impl.cpp.o	91b09deb54cf747
+5	219	1733300532833306339	CMakeFiles/Lerc.dir/src/LercLib/fpl_EsriHuffman.cpp.o	f05f9d29ef88bd82
+2	219	1733300532830884622	CMakeFiles/Lerc.dir/src/LercLib/BitStuffer2.cpp.o	3664abb2a16b7cdd
+3	227	1733300532832124126	CMakeFiles/Lerc.dir/src/LercLib/Lerc1Decode/CntZImage.cpp.o	7a742eea6280fe65
+5	251	1733300532833690257	CMakeFiles/Lerc.dir/src/LercLib/fpl_Lerc2Ext.cpp.o	bd80b00719ac6ac5
+2	287	1733300532831123206	CMakeFiles/Lerc.dir/src/LercLib/Huffman.cpp.o	5c8b8abdb4f5d362
+3	575	1733300532831793125	CMakeFiles/Lerc.dir/src/LercLib/Lerc.cpp.o	2a20cb2cfd3b655b
+4	778	1733300532832249752	CMakeFiles/Lerc.dir/src/LercLib/Lerc2.cpp.o	b4e8550e4dcc654f
+778	837	1733300533606760039	libLerc.so	c80fdf4aeb8d2bd5

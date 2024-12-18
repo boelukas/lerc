@@ -1,0 +1,1011 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 24.1.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      note: Building targets in dependency order
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdC' in project 'CompilerIdC' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+      
+      Build description signature: 4262886f1e9e138433ad54c98b1f3629
+      Build description path: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/./XCBuildData/4262886f1e9e138433ad54c98b1f3629.xcbuilddata
+      CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+      
+      ClangStatCache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.xcodeproj
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+      
+      CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/EagerLinkingTBDs/Debug
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC-d9d24303ac0ea36fa2bc7f98aeea5fe3-VFS/all-product-headers.yaml
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.xcodeproj
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC-d9d24303ac0ea36fa2bc7f98aeea5fe3-VFS/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.DependencyMetadataFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.DependencyMetadataFileList
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+      -target arm64-apple-macos15.0 -fpascal-strings -Os -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -g '-fvisibility=hidden' -iquote /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/include -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+      
+      ProcessProductPackaging "" /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+      
+      ProcessProductPackagingDER /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          /usr/bin/derq query -f xml -i /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der --raw
+      
+      CompileC /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          
+          Using response file: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+          
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body @/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+      
+      Ld /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -Os -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC
+      
+      PhaseScriptExecution Run\\ Script /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          /bin/sh -c /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          
+          Signing Identity:     "Sign to Run Locally"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\\=none --generate-entitlement-der /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC
+      
+      RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC
+          builtin-RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdC' from project 'CompilerIdC')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      note: Building targets in dependency order
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdCXX' in project 'CompilerIdCXX' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c++ -c /dev/null
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+      
+      ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+      
+      Build description signature: ba8c2b4f63ae8c435bc80392362c34f2
+      Build description path: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/./XCBuildData/ba8c2b4f63ae8c435bc80392362c34f2.xcbuilddata
+      CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+      
+      ClangStatCache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+      
+      CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/EagerLinkingTBDs/Debug
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX-cab83bf49ed2df1b1ab81a78cb182d1a-VFS/all-product-headers.yaml
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX-cab83bf49ed2df1b1ab81a78cb182d1a-VFS/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.DependencyMetadataFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.DependencyMetadataFileList
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+      
+      WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+      -target arm64-apple-macos15.0 -fpascal-strings -Os -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -g '-fvisibility=hidden' -fvisibility-inlines-hidden -iquote /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/include -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+      
+      ProcessProductPackaging "" /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+      
+      ProcessProductPackagingDER /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          /usr/bin/derq query -f xml -i /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der --raw
+      
+      CompileC /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          
+          Using response file: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+          
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body @/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+      
+      Ld /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -Os -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX
+      
+      PhaseScriptExecution Run\\ Script /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          /bin/sh -c /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          
+          Signing Identity:     "Sign to Run Locally"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\\=none --generate-entitlement-der /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX
+      
+      RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX
+          builtin-RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo"
+      binary: "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_187d5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_187d5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_187d5' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 34e4cf253095398af392559cd333737a
+        Build description path: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/XCBuildData/34e4cf253095398af392559cd333737a.xcbuilddata
+        CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build
+        
+        CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug
+        
+        ClangStatCache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+        
+        CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/cmTC_187d5.DependencyMetadataFileList (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo
+            write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/cmTC_187d5.DependencyMetadataFileList
+        
+        WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo
+            write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList
+        
+        WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo
+            write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+        -target arm64-apple-macos15.0 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -g -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/include -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources-normal/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug
+        
+        CompileC /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo
+            
+            Using response file: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+            
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl,-v @/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-macos15.0
+        Thread model: posix
+        InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=5 -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo -resource-dir /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/include -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources-normal/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo -ferror-limit 19 -fmacro-backtrace-limit=0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.1.0
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/include"
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug (framework directory)
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 normal (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-macos15.0
+        Thread model: posix
+        InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 07:00:06 Aug 10 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+        Library search paths:
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug
+        	/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib
+        	/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift
+        Framework search paths:
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug
+        	/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks
+        
+        RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo
+            builtin-RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include]
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include]
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_187d5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_187d5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_187d5' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+        ignore line: []
+        ignore line: [Build description signature: 34e4cf253095398af392559cd333737a]
+        ignore line: [Build description path: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/XCBuildData/34e4cf253095398af392559cd333737a.xcbuilddata]
+        ignore line: [CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+        ignore line: []
+        ignore line: [ClangStatCache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/cmTC_187d5.DependencyMetadataFileList (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo]
+        ignore line: [    write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/cmTC_187d5.DependencyMetadataFileList]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo]
+        ignore line: [    write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo]
+        ignore line: [    write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp]
+        ignore line: [-target arm64-apple-macos15.0 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -g -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/include -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources-normal/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+        ignore line: []
+        ignore line: [CompileC /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo]
+        ignore line: [    ]
+        ignore line: [    Using response file: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp]
+        ignore line: [    ]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl -v @/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-macos15.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=5 -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo -resource-dir /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/include -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources-normal/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo -ferror-limit 19 -fmacro-backtrace-limit=0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.1.0]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug (framework directory)]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 normal (in target 'cmTC_187d5' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-macos15.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+                  to: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+        link line: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug/cmTC_187d5] ==> ignore
+          arg [-L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug] ==> dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o] ==> obj [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_dependency_info.dat] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug] ==> ignore
+        linker tool for 'C': /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        Framework search paths: [;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug], skipping non-system directory
+        collapse library dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug], skipping non-system directory
+        collapse library dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib]
+        collapse library dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        collapse framework dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/Debug], skipping non-system directory
+        collapse framework dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-lT0bPo/build/cmTC_187d5.build/Debug/Objects-normal/arm64/cmTC_187d5_lto.o]
+        implicit dirs: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        implicit fwks: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 07:00:06 Aug 10 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX"
+      binary: "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ba673 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ba673 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_ba673' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c++ -c /dev/null
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null
+        
+        Build description signature: 6b70a4d081c940f921fdf290afbe2492
+        Build description path: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/XCBuildData/6b70a4d081c940f921fdf290afbe2492.xcbuilddata
+        CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build
+        
+        CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug
+        
+        ClangStatCache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache
+        
+        CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/cmTC_ba673.DependencyMetadataFileList (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX
+            write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/cmTC_ba673.DependencyMetadataFileList
+        
+        WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX
+            write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+        -target arm64-apple-macos15.0 '-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG' -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -g -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/include -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources-normal/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug
+        
+        WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX
+            write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList
+        
+        CompileC /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX
+            
+            Using response file: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+            
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl,-v @/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-macos15.0
+        Thread model: posix
+        InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=5 -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX -resource-dir /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/include -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources-normal/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1 -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX -ferror-limit 19 -fmacro-backtrace-limit=0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.1.0
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/include"
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug (framework directory)
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 normal (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX
+            /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673
+        Apple clang version 16.0.0 (clang-1600.0.26.3)
+        Target: arm64-apple-macos15.0
+        Thread model: posix
+        InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat -lc++ -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug
+        @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+        BUILD 07:00:06 Aug 10 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+        Library search paths:
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug
+        	/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib
+        	/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift
+        Framework search paths:
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug
+        	/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug
+        	/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks
+        
+        RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX
+            builtin-RegisterExecutionPolicyException /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1]
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include]
+          add: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1]
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include]
+        collapse include dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ba673 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ba673 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_ba673' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c++ -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [Build description signature: 6b70a4d081c940f921fdf290afbe2492]
+        ignore line: [Build description path: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/XCBuildData/6b70a4d081c940f921fdf290afbe2492.xcbuilddata]
+        ignore line: [CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+        ignore line: []
+        ignore line: [ClangStatCache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/cmTC_ba673.DependencyMetadataFileList (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX]
+        ignore line: [    write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/cmTC_ba673.DependencyMetadataFileList]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX]
+        ignore line: [    write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp]
+        ignore line: [-target arm64-apple-macos15.0 '-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG' -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -g -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/include -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources-normal/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources/arm64 -I/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX]
+        ignore line: [    write-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX]
+        ignore line: [    ]
+        ignore line: [    Using response file: /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp]
+        ignore line: [    ]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl -v @/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-macos15.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.0 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=5 -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX -resource-dir /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16 -dependency-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/z5/8lrs608973n0x1jj1ttg_s400000gp/C/com.apple.DeveloperTools/16.0-16A5230g/Xcode/SDKStatCaches.noindex/macosx15.0-24A5324a-11fd5b5f6bae034d4ae7d4bc40f5f626.sdkstatcache -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/include -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources-normal/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources/arm64 -I /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1 -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include -internal-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include -internal-externc-isystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX -ferror-limit 19 -fmacro-backtrace-limit=0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.3) default target arm64-apple-darwin24.1.0]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug (framework directory)]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 normal (in target 'cmTC_ba673' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX]
+        ignore line: [    /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673]
+        ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.3)]
+        ignore line: [Target: arm64-apple-macos15.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat -lc++ -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+                  to: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat -lc++ -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+        link line: [ "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 15.0.0 15.0 -syslibroot /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -O0 -mllvm -enable-linkonceodr-outlining -o /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673 -L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug -reproducible -filelist /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList -object_path_lto /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat -lc++ -lSystem /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a -F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug/cmTC_ba673] ==> ignore
+          arg [-L/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug] ==> dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o] ==> obj [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_dependency_info.dat] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug] ==> ignore
+        linker tool for 'CXX': /Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        Framework search paths: [;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug;/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug], skipping non-system directory
+        collapse library dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug], skipping non-system directory
+        collapse library dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib]
+        collapse library dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        collapse framework dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug] ==> [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/Debug], skipping non-system directory
+        collapse framework dir [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks] ==> [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: [/Users/luk14172/Projects/lerc/build/macOS/CMakeFiles/CMakeScratch/TryCompile-J4XseX/build/cmTC_ba673.build/Debug/Objects-normal/arm64/cmTC_ba673_lto.o]
+        implicit dirs: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib;/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/lib/swift]
+        implicit fwks: [/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.5/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Users/luk14172/Projects/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1115.7.3
+      BUILD 07:00:06 Aug 10 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 16.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 16.0.0 (tapi-1600.0.11.8)
+...
