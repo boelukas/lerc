@@ -1,4 +1,0 @@
-/Users/luk14172/Projects/lerc/build/visionOS/CMakeFiles/Lerc.dir
-/Users/luk14172/Projects/lerc/build/visionOS/CMakeFiles/install.dir
-/Users/luk14172/Projects/lerc/build/visionOS/CMakeFiles/ALL_BUILD.dir
-/Users/luk14172/Projects/lerc/build/visionOS/CMakeFiles/ZERO_CHECK.dir

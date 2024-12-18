@@ -32,7 +32,7 @@ public class LercLib : ModuleRules
 
 		if (Target.Platform == UnrealTargetPlatform.Mac)
 		{
-			PublicAdditionalLibraries.Add(Path.Combine(ModuleDirectory, "lib", "mac", "libLerc.dylib"));
+			PublicAdditionalLibraries.Add(Path.Combine(ModuleDirectory, "lib", "macOS", "libLerc.4.dylib"));
 		}
 		if (Target.Platform == UnrealTargetPlatform.Win64)
 		{
@@ -47,7 +47,7 @@ public class LercLib : ModuleRules
 		}
 		if (Target.Platform == UnrealTargetPlatform.VisionOS)
 		{
-			PublicAdditionalLibraries.Add(Path.Combine(ModuleDirectory, "lib", "visionOS", "libLerc.dylib"));
+			PublicAdditionalLibraries.Add(Path.Combine(ModuleDirectory, "lib", "visionOS", "libLerc.4.dylib"));
 		}
 	}
 }
